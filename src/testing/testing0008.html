@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <style type="text/css">
+        * {
+            font-family: sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh;
+            justify-content: center;
+            align-items: center;
+
+
+
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+
+            box-shadow: 0 0 3px rgb(0 0 0 /40%);
+            padding: 30px 0;
+            border-radius: 10px;
+
+        }
+        button{
+            width: 90%;
+            color: white;
+            
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            padding: 10px 20px;
+
+        }
+        button.login{
+            background-color: #088c08;
+        }
+        button.login:hover{
+            background-color: #13c713;
+        }
+        button.login:active{
+            background-color: #20af20;
+        }
+
+
+
+        button.logout{
+            background-color: red;
+        }
+        button.logout:hover{
+            background-color: palevioletred;
+        }
+        button.logout:active{
+            background-color: indianred;
+        }
+
+        input{
+            width: 84%;
+            margin: 10px 20px;
+            padding: 10px 10px;
+            border-radius: 5px;
+            border: 1px rgb(140, 140, 140, 1) solid;
+        }
+        h2{
+            align-self: flex-start;
+            padding-left: 10%;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container">
+        <h2>Login</h2>
+        <input type="text"          name="text"              placeholder = 'girsoz' required>
+        <input type="password"      name="password"          placeholder = 'gecsoz' required>    
+        <button onclick="login()"  class="login">Login</button>
+        <button onclick="logout()" class="logout">Logout</button>
+    </div>
+    
+
+    <script type="text/javascript" src="/Users/Mac/Desktop/dene/PYTHON/AI/test_00002/testing/src/testing/script.js"></script>
+
+
+</body>
+
+</html>

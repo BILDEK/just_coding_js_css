@@ -1,0 +1,86 @@
+
+
+
+.contact_us_div_container {
+
+	
+
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	max-width: 1000px;
+	margin-left: 10%;
+
+
+}
+
+.contact_us_div_container .part_0{
+	display: grid;    
+	grid-template-columns: 44% 44%;
+	gap:1%;
+}
+
+@media (max-width:1000px){
+	.contact_us_div_container .part_0{
+		grid-template-columns: 90%;
+
+
+	}
+	.contact_us_div_container {
+		margin-left: 1px;
+
+	}
+
+}
+
+.contact_us_div_container .part_0 div {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	padding-right: 50px;
+}
+.contact_us_div_container input {
+	padding: 10px 2px;
+	margin: 10px 10px;
+	
+}
+.contact_us_div_container textarea{
+
+	width: 85%;	
+	margin-left: 10px;
+
+}
+
+.contact_us_div_container .part_1{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	padding-right: 50px;
+}
+.contact_us_div_container{
+	padding:10px 20px ;
+}
+
+.div_button{
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+	padding-right: 100px;
+}
+.contact_us_div_container p {
+	padding-right: 10%;
+}
+
+.part_1 label{
+	margin: 10px 0;
+}
+
+
+button {
+	margin: 10px 0;
+}
+
+
+
+
+

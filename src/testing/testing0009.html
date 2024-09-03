@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eğitim Platformu - Ana Sayfa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #e8491d;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Eğitim</span> Platformu</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="exams.html">Sınavlar</a></li>
+                    <li><a href="profile.html">Profilim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Hoş Geldiniz, Tayip Bilal Tedik</h2>
+        
+        <div class="card">
+            <h3>Özet İstatistikler</h3>
+            <p>Tamamlanan Sınav Sayısı: 4</p>
+            <p>Ortalama Puan: 32.50%</p>
+            <p>En Yüksek Puan: 32.5%</p>
+        </div>
+
+        <div class="card">
+            <h3>Yaklaşan Sınavlar</h3>
+            <ul>
+                <li>Matematik Sınavı - 15 Eylül 2024</li>
+                <li>Fen Bilgisi Sınavı - 20 Eylül 2024</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Son Aktiviteler</h3>
+            <ul>
+                <li>Türkçe Sınavı - Tamamlandı (32.5%)</li>
+                <li>İngilizce Quizi - Tamamlandı (30%)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Önerilen Çalışma Materyalleri</h3>
+            <ul>
+                <li><a href="#">Matematik Temel Kavramlar</a></li>
+                <li><a href="#">Fen Bilgisi Deney Videoları</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Hızlı Erişim</h3>
+            <a href="#" class="btn">Sınav Geçmişi</a>
+            <a href="#" class="btn">Profil Düzenle</a>
+            <a href="#" class="btn">Yardım ve Destek</a>
+        </div>
+    </div>
+</body>
+</html>

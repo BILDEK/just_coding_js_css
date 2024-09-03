@@ -1,0 +1,121 @@
+
+
+
+
+
+
+.container *{
+	//outline: 1px red solid;
+
+
+}
+
+
+.testing_010 {
+	display:  grid;
+	grid-template-columns: 30% 70%;
+	gap: 10px;
+	width: 90%;		
+}
+
+.testing_001 img{
+	position: relative;
+	background: gray;
+	width: 50px;
+	height: 50px;
+	padding: none;
+	border-radius: 10px;
+	margin: 5px 10px;
+}
+.testing_001 > div {
+
+	display: grid;
+	grid-template-columns: 30% 60% 10%;
+	padding: 5px 10px;
+
+}
+.testing_001 p {
+	padding: 5px 10px;
+	padding-bottom: 10px;
+}
+.testing_001 div div{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+div .name {
+	padding-top: 10px;
+}
+div .tarih {
+
+	font-size: 10px;
+}
+
+
+.testing_001 {
+	background-color: rgb(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+.testing_001 .exit{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	justify-self: self-end;
+	margin-top: 5px;
+}
+.testing_001z1 {
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+@media (max-width:1000px){
+	.testing_010 {
+		display: flex;
+		flex-direction: column-reverse;
+
+
+	}	
+}
+
+
+.testing_010 *{
+	//outline: 1px gray solid;
+}
+.testing_002 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 10px;
+	background-color: gainsboro;
+	border-radius: 10px;
+}
+.testing_002 img {
+	width: 80%;
+	border-radius: 10px;
+	padding-top: 10px;
+}
+.testing_002 p {
+	padding: 10px 20px;
+}
+.tarih_post {
+
+	position: relative;
+	align-self: flex-end;
+	padding: 1px 10px;
+
+	font-size: 10px;
+	background-color: #c6b8b8;
+	border-radius: 10px;
+	color: white;
+}
+
+.testing_002_1{
+	margin-top: 10px;
+}
+.testing_002_1 div{
+	margin-top : 10px
+}
